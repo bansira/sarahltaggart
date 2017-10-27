@@ -1,3 +1,27 @@
-h1 {
-font-size: 3em;
+h4 {
+ font-size: 1em;
+ font-family: Frutiger;
+ color: #1799B5;
+ padding-top: 100px;
+ width: 100%;
+ text-align: left;
+}
+h5 {
+  font-size: 1em;
+  font-family: monospace;
+  color: #1988;
+  text-align: left;
+}
+p {
+  font-size: 1em;
+  font-family: monospace;
+  color: #3089;
+  text-align: left;
+}
+html {
+  background: url("http://www.malahatreview.ca/images/people/sarahtaggart_pic.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
