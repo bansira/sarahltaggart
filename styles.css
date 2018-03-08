@@ -1,10 +1,12 @@
-h4 {
- font-size: 1em;
- font-family: Frutiger;
- color: #1799B5;
+header {
+ font-size: 58px;
+ font-family: raleway, sans-serif;
+ color: black;
  padding-top: 100px;
  width: 100%;
- text-align: left;
+ text-align: center;
+ letter-spacing: 0.15em;
+ font-weight: normal;
 }
 h5 {
   font-size: 1em;
@@ -18,10 +20,20 @@ p {
   color: #3089;
   text-align: left;
 }
-html {
-  background: url("http://www.malahatreview.ca/images/people/sarahtaggart_pic.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+footer {
+  font-size: 10px;
+  font-family: raleway, sans-serif;
+  font-weight: normal;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  height: 50%;
+  width: 50%;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
